@@ -165,7 +165,8 @@ a {
 .button {
   color: var(--primary-text-color);
   background-color: var(--button-bg-color);
-  height: 38px;
+  cursor: pointer;
+  padding: 6px 22px;
   border-radius: 4px;
   border: none;
   font-family: inherit;
@@ -178,8 +179,6 @@ a {
 .button.hero-btn {
   color: var(--background-color);
   background-color: var(--accent-color);
-  width: 216px;
-  height: 50px;
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
@@ -194,26 +193,6 @@ a {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
-}
-
-.btn-all {
-  width: 73px;
-}
-
-.btn-sites {
-  width: 125px;
-}
-
-.btn-applications {
-  width: 112px;
-}
-
-.btn-design {
-  width: 103px;
-}
-
-.btn-marketing {
-  width: 130px;
 }
 
 .cards h3 {
