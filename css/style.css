@@ -97,14 +97,11 @@ a {
 
 .benefits-section h3 {
   text-transform: uppercase;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.14;
 }
 
 .benefits-section p {
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--ardess-bottom-list-paragraph);
 }
@@ -126,8 +123,6 @@ a {
 }
 
 .description {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--ardess-bottom-list-paragraph);
