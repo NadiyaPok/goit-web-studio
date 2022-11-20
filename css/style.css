@@ -51,16 +51,19 @@ body {
 
 /*--------header--------*/
 
-header .container {
+.main-nav {
   display: flex;
+  align-items: center;
+
 }
+
 .logo {
+  display: block;
+  margin-right: 93px;
   font-size: 26px;
   font-family: "Raleway", sans-serif;
   line-height: 1.19;
   font-weight: 700;
-  display: block;
-  margin-right: 92px;
 }
 
 .logo-one {
@@ -87,19 +90,25 @@ header .container {
 .list {
   list-style: none;
 }
+
 .site-nav {
   display: flex;
+  align-items: center;
 }
+
 .header-list {
   display: flex;
 }
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 
 .site-nav .link:hover,
@@ -113,8 +122,21 @@ header .container {
   color: var(--accent-color);
 }
 
+.site-nav .item-nav:not(:last-child) {
+  margin-right: 50px;
+}
+
 a {
   text-decoration: none;
+}
+
+.address-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.address-list .item-address:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address-list .link {
@@ -148,6 +170,10 @@ a {
 }
 
 /* ---- benefits-section --- */
+
+.benefits-list {
+  display: flex;
+}
 
 .benefits-section h3 {
   text-transform: uppercase;
