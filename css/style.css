@@ -36,6 +36,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .section {
@@ -52,7 +53,7 @@ body {
 }
 
 /*--------header--------*/
-header {
+.header {
   border-bottom: 1px solid var(--border-color-header);
 }
 
@@ -144,6 +145,8 @@ a {
 }
 
 .address-list .link {
+  display: block;
+  padding: 32px 0;
   font-style: normal;
   color: var(--ardess-bottom-list-paragraph);
   font-weight: 500;
@@ -157,7 +160,7 @@ a {
   background-color: var(--background-color-dark);
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -247,7 +250,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -255,7 +258,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--ardess-bottom-list-paragraph);
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* ----- footer ----- */
@@ -347,7 +350,7 @@ a {
 
 .portfolio-btns {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom:50px;
   justify-content: center;
 }
 
