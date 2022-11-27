@@ -212,6 +212,31 @@ a {
   color: var(--ardess-bottom-list-paragraph);
 }
 
+.benefits-pic-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-pic-item {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.benefits-pic-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefits-pic-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--button-section-bg-color);
+}
 /* ---- what we do section ----- */
 
 .nopadding {
