@@ -332,7 +332,7 @@ a {
 
 .clients-item {
   width: 170px;
-height: 92px;
+  height: 92px;
 }
 .clients-item:not(:last-child) {
   margin-right: 30px;
@@ -344,9 +344,9 @@ height: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #AFB1B8;
-border-radius: 4px;
-background-color: var(--background-color);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: var(--background-color);
 }
 .client-link .clients-icon {
   fill: #afb1b8;
@@ -433,6 +433,52 @@ background-color: var(--background-color);
 .button:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+}
+.container-bottom {
+  display: flex;
+}
+
+.footer-address-box {
+  margin-right: 70px;
+}
+.footer-soc {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: var(--background-color);
+}
+
+.social-bottom-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-bottom-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-bottom-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-bottom-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-bottom-link:hover {
+  background-color: var(--accent-color);
+}
+.social-bottom-icon {
+  fill: var(--background-color);
 }
 
 /*----portfolio-----*/
