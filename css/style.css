@@ -121,6 +121,7 @@ body {
 .address-list .link:hover,
 .address-list .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .site-nav .link.current {
@@ -145,13 +146,16 @@ a {
 }
 
 .address-list .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 32px 0;
   font-style: normal;
   color: var(--ardess-bottom-list-paragraph);
+  fill: var(--ardess-bottom-list-paragraph);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  gap: 10px;
 }
 
 /*------HERO------*/
@@ -212,31 +216,17 @@ a {
   color: var(--ardess-bottom-list-paragraph);
 }
 
-.benefits-pic-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .benefits-pic-item {
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
-}
-
-.benefits-pic-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.benefits-pic-link {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   background-color: var(--button-section-bg-color);
+  margin-bottom: 30px;
 }
+
 /* ---- what we do section ----- */
 
 .nopadding {
