@@ -268,6 +268,7 @@ a {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #EEEEEE;
 }
 
 .team-item:not(:last-child) {
@@ -288,19 +289,20 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--ardess-bottom-list-paragraph);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .members-soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .members-soc-item {
   width: 44px;
   height: 44px;
-  margin-bottom: 30px;
+
 }
 
 .members-soc-item:not(:last-child) {
@@ -358,7 +360,7 @@ a {
 }
 
 .client-link:hover {
-  border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .client-link:hover .clients-icon {
@@ -430,7 +432,7 @@ a {
 }
 
 .button.hero-btn:hover,
-.button.hero-btn::after {
+.button.hero-btn:focus {
   box-shadow: var(--box-shadow);
 }
 
@@ -446,13 +448,17 @@ a {
 .footer-address-box {
   margin-right: 70px;
 }
+
+.footer-social-box {
+  padding-top: 12px;
+}
+
 .footer-soc {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 12px;
   margin-bottom: 20px;
   color: var(--background-color);
 }
