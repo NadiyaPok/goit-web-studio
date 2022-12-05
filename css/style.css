@@ -165,10 +165,8 @@ a {
 
 .hero {
   background-color: var(--background-color-dark);
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url("../images/bghero.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -317,6 +315,7 @@ a {
   border-radius: 50%;
   background-color: var(--background-color);
 }
+
 .members-soc-link:hover {
   background-color: var(--accent-color);
 }
@@ -324,6 +323,7 @@ a {
 .members-soc-link .members-soc-icon {
   fill: #afb1b8;
 }
+
 .members-soc-link:hover .members-soc-icon {
   fill: var(--background-color);
 }
@@ -340,6 +340,7 @@ a {
   width: 170px;
   height: 92px;
 }
+
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -354,6 +355,7 @@ a {
   border-radius: 4px;
   background-color: var(--background-color);
 }
+
 .client-link .clients-icon {
   fill: #afb1b8;
 }
@@ -365,6 +367,7 @@ a {
 .client-link:hover .clients-icon {
   fill: var(--accent-color);
 }
+
 /* ----- footer ----- */
 
 .logo-bottom {
@@ -440,6 +443,7 @@ a {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
+
 .container-bottom {
   display: flex;
 }
@@ -485,9 +489,11 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
 .social-bottom-link:hover {
   background-color: var(--accent-color);
 }
+
 .social-bottom-icon {
   fill: var(--background-color);
 }
@@ -533,6 +539,11 @@ a {
   margin-bottom: 30px;
 }
 
+.portfolio-item:hover .portfolio-cover-text,
+.portfolio-item:focus .portfolio-cover-text {
+  transform: translateY(0);
+}
+
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
@@ -544,6 +555,7 @@ a {
 .portfolio-link {
   display: block;
 }
+
 .portfolio-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -559,4 +571,25 @@ a {
   font-size: 16px;
   line-height: 1.875;
   color: var(--ardess-bottom-list-paragraph);
+}
+
+.portfolio-cover-text {
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  height: 100%;
+  padding: 63px 24px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
+}
+
+.portfolio-thumb {
+  position: relative;
+  overflow: hidden;
 }
