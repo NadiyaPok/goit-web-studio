@@ -133,6 +133,10 @@ body {
 .address-list .link:hover,
 .address-list .link:focus {
   color: var(--accent-color);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
   fill: var(--accent-color);
 }
 
