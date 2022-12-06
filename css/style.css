@@ -125,8 +125,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -587,8 +586,8 @@ a {
   margin-bottom: 30px;
 }
 
-.portfolio-item:hover .portfolio-cover-text,
-.portfolio-item:focus .portfolio-cover-text {
+.portfolio-link:hover .portfolio-cover-text,
+.portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0);
 }
 
