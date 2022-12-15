@@ -409,21 +409,16 @@
 
       <div class="footer-subscription-box">
         <p class="footer-subs-text">Підпишіться на розсилку</p>
-        <form>
-        <div class="footer-subs-list">
-        <div class="subs-input-wrap">
-        <input type="email" placeholder="E-mail" class="subs-input">
-      </div>
-        <button type="submit" class="subs-button">Підписатися
-          <svg width="24" height="24" class="subs-icon">
-            <use href="./images/icons.svg#icon-send"></use>
-          </svg>
-        </button>
+        <form class="footer-subs-list">
+          <input type="email" placeholder="E-mail" class="subs-input">
+          <button type="submit" class="subs-button">Підписатися
+            <svg width="24" height="24" class="subs-icon">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
-    </div>
-  </form>
-
   </footer>
 
   <div class="backdrop is-hidden" data-modal>
@@ -476,9 +471,7 @@
           <label for="conditions" class="modal-conditions-label">Погоджуюся з розсилкою та приймаю <a
               class="conditions-link" href="#">Умови договору</a></label>
         </div>
-        <div class="text-center">
-          <button type="submit" class="button hero-btn">Відправити</button>
-        </div>
+          <button type="submit" class="button hero-btn modal-btn">Відправити</button>
       </form>
     </div>
   </div>
